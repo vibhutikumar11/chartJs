@@ -1,0 +1,20 @@
+.carousel-control-next, .carousel-control-prev{
+    width: auto;
+    opacity: 1;
+}
+
+
+.carousel-control-next-icon:before,.carousel-control-prev-icon:after {
+  content: '>';
+  font-size: 40px;
+  font-weight: bold;
+  left: 200px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    right: auto;
+    left: -70px;
+}
